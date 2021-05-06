@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="History and Lore of the Fallout Video Game Franchise">
+	<meta name="keywords" content="Fallout, Fallout Lore, Video Game, Fallout Video Game, Fallout Franchise, Bethesda">
+	<meta name="author" content="Hayley Dellwo">
+	<link rel="stylesheet" type="text/css" href="DellwoHayleyStyleSheet.css">
+	<link rel="stylesheet" type="text/css" href="DellwoHayleyGalleryStyleSheet.css"> 
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+
+<title>Fallout: After the Bang | Gallery</title>
+</head>
+<body>
+<div class="topnav">
+	<ul>
+		<li><a href="DellwoHayleyHomePage.html" target="_blank">Brief Series History</a>
+		<li><a href="DellwoHayleyInDepth.html" target="_blank">Mechanics In-Depth</a>
+		<li><a href="DellwoHayleyCreatureFeature.html" target="_blank">Creature Feature</a>   
+		<li><a href="DellwoHayleyGallery.html" target="_blank">Gallery</a>
+	</ul>
+</div>
+<div class="row">
+	<div class="column">
+		<img id="strip" src="The_Strip.png" alt="New Vegas Strip" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				<div class="desc">A view of the New Vegas Strip</div>
+		<img id="rangers" src="Rangers.png" alt="Unification Monument" onclick="openModal();currentSlide(2)" class="hover-shadow">
+			<div class="desc">A view of the Unification Monument on I-15</div>
+		<img id="adventurers" src="Adventures.png" alt="Adventurers" onclick="openModal();currentSlide(3)" class="hover-shadow">
+			<div class="desc">Three Adventurers in the year 2102</div>
+	</div>
+	<div class="column">
+		<img src="Mothman.png" alt="Mothman Effigy" onclick="openModal();currentSlide(4)" class="hover-shadow">
+			<div class="desc">An effigy created by the Cult of Mothman</div>
+		<img src="Swamp.png" alt="The Mire" onclick="openModal();currentSlide(5)" class="hover-shadow">
+			<div class="desc">Sunlight filtering in through the trees in the Mire of West Virginia</div>
+		<img src="Egret_Tours.png" alt="Egret Tours Marina" onclick="openModal();currentSlide(6)" class="hover-shadow">
+			<div class="desc">A foggy day at the Egret Tours Marina in Boston</div>
+	</div>
+	<div class="column">
+		<img src="Charleston.png" alt="Charleston Capitol Building" onclick="openModal();currentSlide(7)" class="hover-shadow">
+			<div class="desc">The destroyed Charleston Capitol Building in West Virginia</div>
+		<img src="Responder.png" alt="Responder on Patrol" onclick="openModal();currentSlide(8)" class="hover-shadow">
+			<div class="desc">A Responder on patrol in the year 2102</div>
+		<img src="Mount_Blair.png" alt="Mount Blair's Rockhound" onclick="openModal();currentSlide(9)" class="hover-shadow">
+			<div class="desc">A view from atop Mount Blair's Rockhound excavator in West Virginia</div>
+	</div>
+</div>
+
+<div id="myModal" class="modal">
+	<span class="close cursor" onclick="closeModal()">&times;</span>
+	<div class="modal-content">
+	
+		<div class="mySlides">
+			<div class="numbertext">1 / 9</div>
+			<img src="The_Strip.png" style="width:100%;">
+		</div>
+		<div class="mySlides">
+			<div class="numbertext">2 / 9</div>
+            <img src="Rangers.png" style="width:100%;">
+        </div>
+		<div class="mySlides">
+            <div class="numbertext">3 / 9</div>
+            <img src="Adventures.png" style="width:100%;">
+        </div>
+		<div class="mySlides">
+            <div class="numbertext">4 / 9</div>
+            <img src="Mothman.png" style="width:100%;">
+        </div>
+		<div class="mySlides">
+            <div class="numbertext">5 / 9</div>
+            <img src="Swamp.png" style="width:100%;">
+        </div>
+		<div class="mySlides">
+            <div class="numbertext">6 / 9</div>
+            <img src="Egret_Tours.png" style="width:100%;">
+        </div>
+		<div class="mySlides">
+            <div class="numbertext">7 / 9</div>
+            <img src="Charleston.png" style="width:100%;">
+        </div>
+		<div class="mySlides">
+            <div class="numbertext">8 / 9</div>
+            <img src="Responder.png" style="width:100%;">
+        </div>
+		<div class="mySlides">
+            <div class="numbertext">9 / 9</div>
+            <img src="Mount_Blair.png" style="width:100%;">
+        </div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(-1)">&#10095;</a>
+
+<div class="caption-container">
+	<p id="caption"></p>
+</div>
+
+<div class="column">
+	<img class="demo" src="The_Strip.png" onclick="currentSlide(1)" alt="A view of the New Vegas Strip">
+</div>
+
+<div class="column">
+	<img class="demo" src="Rangers.png" onclick="currentSlide(2)" alt="A view of the Unification Monument on I-15">
+</div>
+
+<div class="column">	
+	<img class="demo" src="Adventures.png" onclick="currentSlide(3)" alt="Three Adventurers in the year 2102">
+</div>
+
+<div class="column">	
+	<img class="demo" src="Mothman.png" onclick="currentSlide(4)" alt="An effigy created by the Cult of Mothman">
+</div>
+
+<div class="column">	
+	<img class="demo" src="Swamp.png" onclick="currentSlide(5)" alt="Sunlight filtering in through the trees in the Mire of West Virginia">
+</div>
+
+<div class="column">	
+	<img class="demo" src="Egret_Tours.png" onclick="currentSlide(6)" alt="A foggy day at the Egret Tours Marina in Boston">
+</div>
+
+<div class="column">	
+	<img class="demo" src="Charleston.png" onclick="currentSlide(7)" alt="The destroyed Charleston Capitol Building in West Virginia">
+</div>
+
+<div class="column">	
+	<img class="demo" src="Responder.png" onclick="currentSlide(8)" alt="A Responder on patrol in the year 2102">
+</div>
+
+<div class="column">	
+	<img class="demo" src="Mount_Blair.png" onclick="currentSlide(9)" alt="A view from atop Mount Blair's Rockhound excavator in West Virginia">
+</div>
+
+
+</div>
+</div>
+</body>
+</html>
+<script src="DellwoHayleyGalleryJavaScript.js"></script>
